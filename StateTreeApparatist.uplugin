@@ -1,0 +1,35 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "0.1.0",
+	"FriendlyName": "StateTree Apparatist",
+	"Description": "Unreal Engine's StateTree support for Apparatus ECS.",
+	"Category": "Workflow",
+	"CreatedBy": "SP Vladislav Dmitrievich Turbanov",
+	"CreatedByURL": "https://turbanov.ru",
+	"DocsURL": "https://github.com/toolworks/ApparatusStateTree",
+	"SupportURL": "https://github.com/toolworks/ApparatusStateTree",
+	"EnabledByDefault": true,
+	"CanContainContent": false,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "StateTreeApparatistRuntime",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "Apparatus",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/66d674e3675f44c1a1e619de8adcef71"
+		},
+		{
+			"Name": "StateTree",
+			"Enabled": true
+		}
+	]
+}
