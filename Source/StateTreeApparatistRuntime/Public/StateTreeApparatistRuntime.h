@@ -23,7 +23,7 @@
 /**
  * The main StateTree Apparatist runtime module.
  */
-class FStateTreeApparatistModule : public IModuleInterface
+class FStateTreeApparatistRuntimeModule : public IModuleInterface
 {
   public:
 

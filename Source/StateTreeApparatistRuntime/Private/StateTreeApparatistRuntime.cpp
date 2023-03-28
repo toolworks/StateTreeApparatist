@@ -19,7 +19,7 @@
 
 #define LOCTEXT_NAMESPACE "FStateTreeApparatistRuntimeModule"
 
-DEFINE_LOG_CATEGORY(LogApparatist);
+DEFINE_LOG_CATEGORY(LogStateTreeApparatist);
 
 void FStateTreeApparatistRuntimeModule::StartupModule()
 {
