@@ -25,6 +25,7 @@ public class StateTreeApparatistRuntime : ModuleRules
             "CoreUObject",
             "Engine",
             "ApparatusRuntime",
+            "ApparatistRuntime",
             "StateTreeModule", });
     }
 }
